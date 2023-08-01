@@ -1,0 +1,14 @@
+.tag {
+  border: 0;
+  display: flex;
+  font-family: var(--font-cera-pro);
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  background-color: var(--color-black);
+  border-radius: var(--br-mid-5);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-11xl);
+  align-items: center;
+  justify-content: center;
+}

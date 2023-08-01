@@ -1,0 +1,29 @@
+.tagcontainer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-11xl);
+}
+.main,
+.tagcontainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardContainter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: var(--padding-11xl);
+  grid-gap: 25px;
+}
+.main {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  flex-direction: column;
+  padding: 2px 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  width: var(--viewport-width);
+  margin: auto;
+
+}

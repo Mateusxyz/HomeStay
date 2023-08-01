@@ -1,0 +1,82 @@
+.maskGroupIcon {
+  position: absolute;
+  margin: 0 !important;
+  object-fit: cover;
+  z-index: 0;
+}
+.iconcontainer {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.span {
+  font-weight: 900;
+  font-family: var(--font-cera-pro);
+}
+.brazil,
+.soPaulo {
+  margin: 0;
+}
+.brazil {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+}
+.soPauloBrazilContainer {
+  position: relative;
+}
+.cityname {
+  width: 150px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.carinfo,
+.editfilterbutton,
+.filtercard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.editfilterbutton {
+  border: 0;
+  font-family: var(--font-cera-pro);
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  background-color: var(--color-black);
+  border-radius: var(--br-mid-5);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 175px;
+  height: 35px;
+  padding: 0 var(--padding-33xl);
+  box-sizing: border-box;
+  align-items: center;
+}
+.carinfo,
+.filtercard {
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+}
+.carinfo {
+  width: 175px;
+  height: 243px;
+  gap: var(--gap-141xl);
+  z-index: 1;
+}
+.filtercard {
+  border-radius: var(--br-lgi);
+  background-color: var(--color-gray-200);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  height: 368px;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-cera-pro);
+}

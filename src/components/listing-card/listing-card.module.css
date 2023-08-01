@@ -1,0 +1,68 @@
+.cardpicIcon {
+  position: relative;
+  width: 100%;
+  height: 269px;
+  object-fit: cover;
+  border-radius: var(--br-lgi) var(--br-lgi) 0 0;
+}
+.title {
+  position: relative;
+  font-weight: 500;
+}
+.iconcontainer {
+  position: relative;
+  width: 19px;
+  height: 19px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.cardrating,
+.cardtitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.cardtitle {
+  justify-content: space-between;
+}
+.distancetext {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  color: var(--color-gray-100);
+}
+.cardarea {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.night1 {
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-100);
+}
+.night {
+  font-weight: 500;
+}
+.cardprice {
+  position: relative;
+}
+.cardinfo,
+.listingcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cardinfo {
+  padding: var(--padding-xl);
+  gap: var(--gap-3xs);
+}
+.listingcard {
+  border-radius: var(--br-lgi);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-cera-pro);
+}
